@@ -19,22 +19,13 @@ puts word             #
 # 10: (print "hihihihi")
 
 #Question 2
-number = 0             # 1
-while 2 > number       # 2 6 9
-  if number < 1        # 3 7
-    puts number        # 4
-  end
-  number = number + 1  # 5 8
-end
-puts "Done!"           # 10
+index = 0             # 1 
+while index > 2       # 2
+  puts index          
+  index = index + 1   
+end 
+puts "Done!"          # 3 
 
-# 1: number is 0
-# 2: (2 is greater than 0, continue)
-# 3: (0 is less than 1, continue)
-# 4: (print 0)
-# 5: number is 1
-# 6: (2 is greater than 1, continue)
-# 7: (1 is not greater than 1, go to number = number + 1)
-# 8: number is 2
-# 9: (2 is not less than 2, end loop)
-# 10: (print "Done!")
+# 1: index is 0
+# 2: (0 is not greater than 2, end loop)
+# 3: (print "Done!")
