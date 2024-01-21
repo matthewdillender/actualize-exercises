@@ -16,12 +16,12 @@ pp cat
 
 # Question 2
 
-class Store_item
+class StoreItem
     def initialize(input_name, input_price)
       @name = input_name
       @price = input_price
     end
   end
   
-  StoreItem = Store_item.new("chair", 100)
-  pp StoreItem
+  store_item = StoreItem.new("chair", 100)
+  pp store_item
