@@ -12,10 +12,9 @@ puts z
 # then explain what the error message means and what would need to change to fix it.
 
 # x = 10
-# puts x + y    # y is a string at it has yet to be assigned numerical value
+# puts x + y    # y is a string at it has yet to be assigned numerical value and strings can't be coerced into integer statements.
 # y = x
 
 x = 10
 y = x
 puts x + y
-
