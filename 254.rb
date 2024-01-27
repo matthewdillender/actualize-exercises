@@ -44,5 +44,5 @@ class Product
   end
 end
   
-  product = Product.new({"name" => "Table"}) # FIX THIS LINE
-  puts "The product's name is #{product.name}."
+product = Product.new({"name" => "Table"}) # FIX THIS LINE
+puts "The product's name is #{product.name}."
