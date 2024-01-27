@@ -1,13 +1,10 @@
 # QUESTION 1
 
-def quad_add(input_uno + input_dos + input_tres + input_quatro)    
-  def input_uno(12)
-  def input_dos(15)
-  def input_tres(19)
-  def input_quatro(9)
-  end
-end
-pp quad_add
+def quad_add(n1, n2, n3, n4)    
+  return  n1 + n2 + n3 + n4   
+end 
+  
+pp quad_add(10, 20, 30, 40)
   
 
 # QUESTION 2
