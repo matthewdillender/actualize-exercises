@@ -23,12 +23,12 @@ class Person
       index = index + 1
     end  
     return result.join(",")  
-    end  
-  end
+  end  
+end
   
-  person = Person.new("Bob", "Jones", "pink", ["basketball", "chess", "phone tag"])
-  puts "#{person.email}"
-  puts "#{person.info}"
+person = Person.new("Bob", "Jones", "pink", ["basketball", "chess", "phone tag"])
+puts "#{person.email}"
+puts "#{person.info}"
   
 # Question 2
 # Error code reads "wrong number of arguments" as there is only 1 Product class attribute category in the initialize definition, while there are 2 additional attributes given value within the method.
@@ -41,8 +41,8 @@ class Product
       @name = options_hash["name"]
       @price = options_hash["price"]
       @description = options_hash["description"]
-    end
   end
+end
   
   product = Product.new({"name" => "Table"}) # FIX THIS LINE
   puts "The product's name is #{product.name}."
