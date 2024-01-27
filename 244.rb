@@ -28,14 +28,21 @@ people = [
 ]
 
 
-1.times do
-    pp people[0]["hobbies"][0]
-    pp people[0]["hobbies"][1]
-    pp people[0]["hobbies"][2]
-    pp people[1]["hobbies"][0]
-    pp people[1]["hobbies"][1]
-    pp people[1]["hobbies"][2]
-    pp people[2]["hobbies"][0]
-    pp people[2]["hobbies"][1]
-    pp people[2]["hobbies"][2]
+hobbies = [  
+people[0]["hobbies"][0],
+people[0]["hobbies"][1],
+people[0]["hobbies"][2],
+people[1]["hobbies"][0],
+people[1]["hobbies"][1],
+people[1]["hobbies"][2],
+people[2]["hobbies"][0],
+people[2]["hobbies"][1],
+people[2]["hobbies"][2]
+]
+index = 0
+while index < hobbies.length     # While loop w/ index
+    hobby = hobbies[index]
+    pp hobby
+    index = index + 1
 end
+
