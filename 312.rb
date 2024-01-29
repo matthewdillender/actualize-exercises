@@ -5,11 +5,11 @@
 index = 0
 numbers = [4, 53, 22, 3, 9, 7, 12]
 
-while index <= numbers.length
+while index < numbers.length
   number = numbers[index]
   index = index + 1
   if number > 10
-    puts number
+    pp number
   end
 end
 
