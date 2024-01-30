@@ -27,12 +27,12 @@ add_end_letters = add_first_letter + "ay"
 new_word = add_end_letters.split(//)
 # pp new_word
 
-index = 1 
+index = 0 
 while index < new_word.length
-  pp new_word[index]
+  pig = new_word[index]
   index = index + 1
-end                             # I'm stuck, will revisit tonight...hint?
+end                             
 
 
-
+pp pig
 

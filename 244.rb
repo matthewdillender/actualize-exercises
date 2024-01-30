@@ -1,10 +1,10 @@
 # QUESTION 1
 
-pp drink1["name"]
-pp drink1["ingredients"][0]
-pp drink1["name"]  
-pp drink1["ingredients"]  
-pp drink3["name"]
+# pp drink1["name"]
+# pp drink1["ingredients"][0]
+# pp drink1["name"]  
+# pp drink1["ingredients"]  
+# pp drink3["name"]
 
 
 # QUESTION 2
