@@ -13,12 +13,14 @@
 
 numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
  
-single_numbers = []
+# puts numbers.uniq
+
+array = []
 
 index = 0
 while index < numbers.length
-    single_numbers.push[numbers(index)]
-    index = index + 1
+     array.push[numbers[index]]   # Review and revisit...
+     index = index + 1
 end
 
-puts single_numbers
+puts array
