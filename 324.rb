@@ -19,7 +19,7 @@ array = []
 
 index = 0
 while index < numbers.length
-     array.push[numbers[index]]   # Review and revisit...
+     array.push(numbers[index])   # Review and revisit...
      index = index + 1
 end
 
