@@ -3,10 +3,10 @@
 
 numbers = [5, 4, 2, 2, 6, 8, 1]
 
+sum = 0
 index = 0
 while index < numbers.length
-  sum = numbers[index] + numbers[index + 1]
+  sum = sum + numbers[index]
   index = index + 1
 end
-
-pp sum
+p sum
