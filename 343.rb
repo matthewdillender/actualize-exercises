@@ -8,10 +8,8 @@ letter_points = {'a'=> 1, 'b'=> 3, 'c'=> 3, 'd'=> 2, 'e'=> 1, 'f'=> 4, 'g'=> 2, 
 
 puts "Enter a scrabble word."
 
-word = gets.chomp               # First attempt. Will revisit 
-
+word = gets.chomp               
 letters = word.split(//)        # Knowledge gap1: how to get value from hash keys...
-
 pp letters
 
 word_value = []
