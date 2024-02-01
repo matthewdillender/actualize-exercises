@@ -17,10 +17,9 @@ pp letters
 word_value = []
 index = 0
 while index < letters.length
-    letter = letters[index]
-    word_value.push(letter_points[letter])  # Gap1: (letter_points[letter]): retrieves value from hash keys.
-    # word_value = word_value[index]        # Knowledge gap2: add items in array together within loop...
-    index = index + 1
+  letter = letters[index]
+  word_value.push(letter_points[letter])  # Gap1: (letter_points[letter]): retrieves value from hash keys.
+  index = index + 1
 end
 
-# pp word_value.add                   #First attempt. Will revisit.
+pp word_value.sum                  
