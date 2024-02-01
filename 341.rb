@@ -9,4 +9,4 @@ pp "My favorite work of classic fiction might be #{t} by #{a}."
 
 # I understood tne syntax after a couple problems so was able to complete from memory.
 
-# I will revisit more challengind conditionals problems tomorrow. 
+# I will revisit more challenging conditionals problems tomorrow. 
