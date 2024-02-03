@@ -8,16 +8,24 @@
 # (You can see an example of all the rules here: https://byjus.com/maths/roman-numerals/#chart)
 
 
-roman_numerals = {"I" => 1, "V" => 5, "C" => 100, "D" => 500, "M" => 1000}
 
-roman_numeral = []
-index = 0
-while index < roman_numerals.length     # Knowledge Gap1: How to retrieve key/value from hash.                        
-  if roman_numeral[index] < roman_numeral[index +1] # Knowledge gap3: Syntax for [index + 1]
-    roman_numeral = roman_numeral[index + 1] - roman_numeral[index]  # Knowledge gap2: Moving values b/t hashes and arrays. 
-  end
-index = index + 1
-end                             # Addition and subtraction of keys to create a new array...
+roman_numerals = {1 => "I", 5 => "V", 100 => "C", 500 => "D", 1000 => "M"} 
 
-pp roman_numeral                 # First attempt. Will revisit. 
+# pp roman_numerals[1].to_s           #Retrieve key values from hash
+
+
+def to_roman_numeral(input_number)      #Define basic method...turn hash into custom class?
+  return roman_numerals[input_number]  #Program does not function to return key values. Slow down.
+end
+
+pp to_roman_numeral(1)
+
+# Place input number into new hash with multiple integers as separate values...?
+
+# Define rules...
+
+# Practice methods/hashes and revisit.
+
+
+
 
