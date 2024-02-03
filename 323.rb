@@ -8,9 +8,9 @@
 multiplied = []
 
 number = 1
-while number < 100000
+while number <= 140000
     multiplied << number
     number = number * 2
-end                                 # Program functions...
+end                                 # Until above 100,000...hmmm
 
-puts multiplied
+p multiplied
