@@ -5,12 +5,9 @@
 
 
 
-multiplied = []
 
 number = 1
-while number <= 140000
-    multiplied << number
+while number <= 100000
+    puts number
     number = number * 2
-end                                 # Until above 100,000...hmmm
-
-p multiplied
+end                                 # Why did "puts" within the loop evade me so long!
