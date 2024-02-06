@@ -40,4 +40,4 @@ def calculate_sum(numbers)
   numbers_array = [1, 2, 3, 4, 5]
   result = calculate_sum(numbers_array)
   
-  puts "The sum of the array #{numbers_array} is: #{result}"    # Negative self talk is not useful...
+  puts "The sum of the array #{numbers_array} is: #{result}"    # Negative self talk is not useful...revisit.
