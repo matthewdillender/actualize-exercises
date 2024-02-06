@@ -23,4 +23,4 @@ puts "The ticket price is $#{ticket_price}."
 
 # Reviewing this question as I was previously unable to give solution without notes. This time around I was able to give solution without notes.
 
-# I created numerous deliberate-practice files with 5-8 questions each, across categories, and building in difficulty as a faster way to jump into practice ongoing.  
+# I created numerous deliberate-practice files with 5-8 questions each--across categories--building in difficulty as a faster way to jump into practice ongoing.  
