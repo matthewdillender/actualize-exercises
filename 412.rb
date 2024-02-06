@@ -13,10 +13,10 @@
 # def sum_of(numbers)
 # index = 0 
 #   while index < num_array.length
-#     sum = 0 + numbers[index]                      #Try multiple index trick... 
+#     sum = 0 + numbers[index]                      
 #     index = index + 1
 #   end
-#   return sum 
+#  return sum 
 # end
 
 # puts sum
@@ -29,16 +29,15 @@
 # ChatGPT:
 
 def calculate_sum(numbers)
-    sum = 0
-    numbers.each do |num|
+    sum = 0                         # Need to revisit each
+    numbers.each do |num|           # Need to revisit how to use pipes...
       sum += num
     end
-    sum
+    sum                             # Is this the same as "return sum"?
   end
   
   # Example usage:
   numbers_array = [1, 2, 3, 4, 5]
   result = calculate_sum(numbers_array)
   
-  puts "The sum of the array #{numbers_array} is: #{result}"    # Need to revisit how to use pipes...
-  
+  puts "The sum of the array #{numbers_array} is: #{result}"    # Negative self talk is not useful...
