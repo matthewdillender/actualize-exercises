@@ -10,10 +10,12 @@ sum = 0
 index = 0
 while index < numbers.length
   sum = sum + numbers[index] 
-  mean = sum / 5
   index = index + 1
 end
-p mean
+
+mean = sum / 5
+
+pp mean 
 
 
 
