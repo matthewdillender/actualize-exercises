@@ -4,12 +4,16 @@
 
 
 def sum(numbers)
-  return numbers.map {|n| n }.sum
+    sumava = 0
+    numbers.each do |n|
+    sumava = sumava + n
+  end
+return sumava
 end
 
 numbers = [40, 20, 30, 10, 60]
 
-total_sum = sum(numbers)
-mean_average = total_sum / numbers.length
+total_sumava = sum(numbers)
+mean_average = total_sumava / numbers.length
 
 puts "The mean average is #{mean_average}"
