@@ -12,14 +12,19 @@
 # (That's because apple appeared in the user's list 4 times, more than any other word.)
 
 
-words = []                      # create an array using 10 words from user
+words = []                      # Step 1: Create an array using 10 words from user.
 
 10.times do
   puts "Please enter a word."
   words.push(gets.chomp)
+    index = 0
+    while index < words.length
+      word = words[index] 
+      index = index + 1     
+    end
 end
 
-pp words
+pp words                      # Program works to create array using 10 words from user. 
 
 word_frequencies = {}               # convert array to hash with frequency value
 index = 0

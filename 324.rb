@@ -13,3 +13,26 @@
 # Write a loop that prints the word "duplicate" when it finds a number equal to the first number.
 
 numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
+
+numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]    # Define numbers array with original values
+ 
+array = []                                   # Define new array
+
+index = 0                                    # Set first index value
+while index < numbers.length                 # Loop to repeat for every value in array
+  index2 = index + 1                         # Use and set second index to represent subsequent values within the array
+  duplicate = false                          # Define duplicate as conditionally false 
+  while index2 < numbers.length              # Use while loop to define duplicate as conditionally true
+    if numbers[index] == numbers[index2]    # Use index1 and index2 as iterators to compare numbers within array
+      is_duplicate = true                    # Use while loop to define duplicate as conditionally true
+      break                                  # Break "if" condition when iterated values are the same
+    end                                      # End "if" condition within secondary while loop
+     index2 = index2 + 1                     # Set index to preserve parameters of loop
+  end                                        # End secondary while loop
+# if duplicate = false                       # ...syntax to conditionally shovel non duplicate numbers back into array
+# array << numbers[index]  
+# index = index + 1
+# end
+
+puts array
+
