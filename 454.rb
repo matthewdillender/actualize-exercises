@@ -9,7 +9,8 @@
 begin 
 result 3 / 0 
 rescue ZeroDivisionError
-puts "You cannot divide by zero"            # Revisit,does not run properly
+puts "You cannot divide by zero"            # Would need to load gem files to run?
+
 end
 
 
