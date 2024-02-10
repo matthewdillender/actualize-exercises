@@ -31,16 +31,6 @@ while index < words.length
   word_frequencies[word] = word_frequencies[word] + 1
   index = index + 1
 end
-p word_frequencies
+p word_frequencies    # No idea...
                                   
-greatest_frequency = word_frequencies[0] # print word with greatest frequency value...
-index = 1
-while index < word_frequencies.length
-  word = word_frequencies[index]
-  if word > greatest_frequency
-    greatest_frequency = word
-  end
-  index = index + 1
-end
 
-p greatest_frequency          # I dunno...

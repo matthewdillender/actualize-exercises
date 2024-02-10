@@ -9,18 +9,7 @@
 # That is, the second array should look like: [4, 6, 1, 2, 8, 3, 7]
 # The one catch: Don't use the "uniq" method available to arrays! (That would do this for you.)
 
-
+# Write a loop that prints out all the numbers.
+# Write a loop that prints the word "duplicate" when it finds a number equal to the first number.
 
 numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
- 
-# puts numbers.uniq
-
-array = []
-
-index = 0
-while index < numbers.length
-     array.push(numbers[index])   # Review and revisit...
-     index = index + 1
-end
-
-puts array

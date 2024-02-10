@@ -31,23 +31,23 @@ end
 
 puts "Fine Amount: $#{fine}"
 
-    days_overdue = 10
-    book_type = "regular"
+    # days_overdue = 10
+    # book_type = "regular"
     
-    fine_amount = 0
-    if book_type == "regular"
-      if days_overdue <= 7
-        fine_amount = days_overdue * 1
-      else
-        fine_amount = days_overdue * 2
-      end
-    elsif book_type == "reference"
-      fine_amount = 0
-    elsif book_type == "special collection"
-      fine_amount = days_overdue * 5
-    end
+    # fine_amount = 0
+    # if book_type == "regular"
+    #   if days_overdue <= 7
+    #     fine_amount = days_overdue * 1
+    #   else
+    #     fine_amount = days_overdue * 2
+    #   end
+    # elsif book_type == "reference"
+    #   fine_amount = 0
+    # elsif book_type == "special collection"
+    #   fine_amount = days_overdue * 5
+    # end
     
-    puts "Fine amount: $#{fine_amount}"   
+    # puts "Fine amount: $#{fine_amount}"   
 
     # This was way above my skill level. My challenge at this point is retaining the steps from basic programs to more complex ones. 
     # I think I need to make time to watch all the exercise videos over from the beginning and not get too discouraged.  
