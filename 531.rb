@@ -15,7 +15,9 @@ while index < array1.length
     index = index + 1
 end
 
-
-
-
 pp array2
+
+# This problem took some tinkering to get correct. When I referenced the solution I was correct except for setting the index at the end of the loop.
+# I should practice with .map and .each do as well moving forward.
+
+
