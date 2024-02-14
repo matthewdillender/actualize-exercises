@@ -1,20 +1,28 @@
 header {
-
-    color:#318000;
-    font-size:xx-large;
+    background-image: url(https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg);
+    color:#142f03;
+    font-size: xx-large;
     text-align: center;
-    background-color: #b5ecf6;
-    
-
+    background-position: center top;
+    background-size: cover;
+    line-height: 5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: 50em;
 }
 
 section {
     font-size: medium;
     text-indent: 1cm;
+    max-width: 50em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 footer {
+    
     text-indent: 1cm;
+    max-width: 50em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
