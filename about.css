@@ -1,5 +1,5 @@
 header {
-    background-image: url(https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg);
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/1-bottlenose-dolphin-jumping-martin-ruegner.jpg);
     color:#244c0b;
     font-size: xx-large;
     text-align: center;
@@ -30,18 +30,32 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-indent: 1cm;
     margin: 0 auto;
-    margin-bottom: 20em;
+    margin-bottom: 5em;
 }
 
 main {
 
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 
-h2, h3 {
+
+h2, h3, h4 {
     text-align: center;
+    font-size:3em;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1em;
 }
 
 
+footer {
 
+    font-size: 0.7em;
+}
 
+img {
+    width: 50em;
+}
