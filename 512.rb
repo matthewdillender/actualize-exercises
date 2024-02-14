@@ -6,9 +6,9 @@
 person = { name: "Shawn", age: 25 }
 
 def plus_one(person)
-  return person[:age] + 1
+  return person[:age] = person[:age] + 1
 end
 
 new_age = plus_one(person)
 
-puts new_age 
+puts person 
