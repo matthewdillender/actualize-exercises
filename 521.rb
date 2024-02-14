@@ -12,3 +12,5 @@ while index < array_w_hashes.length
 end
 
 pp new_hash
+
+# I was not able to complete the solution on the first try. I will continue to practice moving keys and values and converting arrays and hashes. 
