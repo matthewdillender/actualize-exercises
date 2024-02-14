@@ -1,28 +1,45 @@
 header {
     background-image: url(https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7709.jpg);
-    color:#142f03;
+    color:#244c0b;
     font-size: xx-large;
     text-align: center;
     background-position: center top;
     background-size: cover;
-    line-height: 5;
+    line-height: 4;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     max-width: 50em;
 }
 
-section {
+header a {
+
+    border: 2px solid gray;
+    border-radius: 2em;
+    font-size:0.8em;
+    padding: 1em 1em;
+    color:rgb(16, 16, 80);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+body {
     font-size: medium;
     text-indent: 1cm;
     max-width: 50em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    text-indent: 1cm;
+    margin: 0 auto;
+    margin-bottom: 20em;
 }
 
-footer {
-    
-    text-indent: 1cm;
-    max-width: 50em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+main {
+
+    margin-top: 5em;
+}
+
+h2, h3 {
+    text-align: center;
 }
 
 
