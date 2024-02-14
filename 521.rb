@@ -1,24 +1,14 @@
-# QUESTION 1
-# Write a method that takes in the array of hashes below 
-# and returns a new array of strings from the model of each item. 
-# Then run the method and print the result.
-cars = [
-  { "make" => "Toyota", "model" => "Corolla", "year" => 2018 },
-  { "make" => "Honda", "model" => "Civic", "year" => 2020 },
-  { "make" => "Ford", "model" => "Mustang", "year" => 2019 }
-]
+# Convert an array of hashes into a hash using the :id key from the array's hashes as the keys in the new hash.
 
+# For example, [{id: 1, color: "blue", price: 32}, {id: 2, color: "red", price: 12}] becomes {1 => {id: 1, color: "blue", price: 32}, 2 => {id: 2, color: "red", price: 12}}.
 
-def model(car_array) 
-    model_array = []
-    index = 0
-  while index < car_array.length
-  model_array<<car_array[index]["model"]
-  index = index + 1
-  end
-  return model_array
+array_w_hashes = [{id: 1, color: "blue", price: 32}, {id: 2, color: "red", price: 12}]
+
+index = 0
+new_hash = {}
+while index < array_w_hashes.length
+    new_hash[array_w_hashes[index][:id]] = array_w_hashes[index]
+    index = index + 1 
 end
 
-model_array = model(cars)
-
-pp model_array
+pp new_hash
