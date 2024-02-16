@@ -16,3 +16,5 @@ new_hash = {}
       index = index + 1
     end
     p new_hash
+
+# I did not remember the usage of "nil" in the "if" conditional, will need to continue to work on using nil to iterate values.ß 
