@@ -1,5 +1,4 @@
 
 
+https://github.com/matthewdillender/strongly_typed_template.git
 
-
-https://html5up.net/strongly-typed
